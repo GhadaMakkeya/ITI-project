@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:iti_grad_project/features/auth/presentation/pages/sign_in.dart';
 
+import 'features/product_list//product_list.dart';
+import 'features/search/search_screen_bar.dart';
+
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: const SignIn(),
+      home: SearchScreen(),
     );
   }
 }
