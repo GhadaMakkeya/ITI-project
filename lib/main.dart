@@ -1,6 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:iti_grad_project/features/auth/presentation/pages/sign_in.dart';
+import 'package:iti_grad_project/features/auth/presentation/pages/sign_up_page.dart';
+import 'package:iti_grad_project/features/home/presentation/pages/home_page.dart';
+import 'package:iti_grad_project/features/search/custom_bottom_nav_bar.dart';
 import 'package:iti_grad_project/firebase_options.dart';
 
 void main()async {
@@ -19,8 +21,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      home: SearchScreen(),
+      debugShowCheckedModeBanner: false,
+      home: CustomBottomNavigationBar(),
     );
   }
 }

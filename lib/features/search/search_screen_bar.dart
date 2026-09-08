@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'custom_bottom_nav_bar.dart';
-
-
 
 class SearchScreen extends StatelessWidget {
   const SearchScreen({super.key});
@@ -65,15 +62,11 @@ class SearchScreen extends StatelessWidget {
                   ),
                 ],
               ),
-
               const SizedBox(height: 16),
-
-
             ],
           ),
         ),
       ),
-      bottomNavigationBar: const CustomBottomNavigationBar(),
     );
   }
 }

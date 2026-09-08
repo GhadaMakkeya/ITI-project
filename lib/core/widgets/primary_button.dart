@@ -16,8 +16,8 @@ class PrimaryButton extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColors.primaryColor,
         ),
-        onPressed: () {},
-        child: Text(text, style: TextStyle(fontSize: 16)),
+        onPressed: onPressed,
+        child: Text(text, style: TextStyle(fontSize: 16, color: Colors.white)),
       ),
     );
   }
