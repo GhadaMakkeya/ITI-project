@@ -3,20 +3,21 @@ import 'package:iti_grad_project/core/constants/app_colors.dart';
 
 class PrimaryButton extends StatelessWidget {
   final String text;
+  final void Function()? onPressed;
 
-  const PrimaryButton({super.key, required this.text});
+  const PrimaryButton({super.key, required this.text, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 362,
-      width: 48,
+      height: 48,
+      width: 362,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          backgroundColor: AppColors.primaryColor
+          backgroundColor: AppColors.primaryColor,
         ),
         onPressed: () {},
-        child: Text(text, style: TextStyle(fontSize: 16),),
+        child: Text(text, style: TextStyle(fontSize: 16)),
       ),
     );
   }
