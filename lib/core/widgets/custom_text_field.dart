@@ -4,11 +4,23 @@ import 'package:iti_grad_project/core/constants/app_styles.dart';
 
 class CustomTextField extends StatelessWidget {
   final String hintText;
-  const CustomTextField({super.key, required this.hintText});
+  final bool? obscureText;
+  final TextEditingController controller;
+  final String? Function(String?)? validator;
+  const CustomTextField({
+    super.key,
+    required this.hintText,
+    this.obscureText = false,
+    required this.controller,
+    this.validator,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
+    return TextFormField(
+      controller: controller,
+      validator: validator,
+      obscureText: obscureText ?? false,
       decoration: InputDecoration(
         hintText: hintText,
         hintStyle: AppStyles.grey14roboto400,
