@@ -8,7 +8,7 @@ class AuthRemoteDataSource {
     required String password,
   }) async {
     try {
-      final userCredential = _firebaseAuth.createUserWithEmailAndPassword(
+      final userCredential = await _firebaseAuth.createUserWithEmailAndPassword(
         email: email,
         password: password,
       );
