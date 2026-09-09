@@ -10,42 +10,42 @@ class SearchResultsPage extends StatelessWidget {
     {
       "name": "Nike Air Force 1",
       "price": "\$120",
-      "image": "assets/images/shoes1.png",
+      "image": "assets/images/shoes1.jpeg",
       "description":
           "The Nike Air Force 1 delivers classic street style with premium leather construction and air-cushioned comfort for all-day wear.",
     },
     {
       "name": "Adidas Ultraboost",
       "price": "\$150",
-      "image": "assets/images/shoes2.png",
+      "image": "assets/images/shoes2.jpeg",
       "description":
           "Experience endless energy return with Adidas Ultraboost featuring responsive Boost midsole tech and Primeknit breathable mesh.",
     },
     {
       "name": "Puma RS-X Tech",
       "price": "\$110",
-      "image": "assets/images/shoes3.png",
+      "image": "assets/images/shoes3.jpeg",
       "description":
           "Retro meets future with Puma RS-X Tech. Designed with bold colorways, dynamic silhouette, and ultra-comfortable cushioning system.",
     },
     {
       "name": "New Balance 574",
       "price": "\$130",
-      "image": "assets/images/shoes4.png",
+      "image": "assets/images/shoes4.jpeg",
       "description":
           "An iconic classic built for versatility and durability. New Balance 574 combines premium suede uppers with ENCAP midsole support.",
     },
     {
       "name": "Jordan Retro High",
       "price": "\$180",
-      "image": "assets/images/shoes5.png",
+      "image": "assets/images/shoes5.jpeg",
       "description":
           "Inspired by basketball history, Jordan Retro High brings legend style, high-top ankle support, and durable traction on any surface.",
     },
     {
       "name": "Converse Chuck 70",
       "price": "\$90",
-      "image": "assets/images/shoes6.png",
+      "image": "assets/images/shoes6.jpeg",
       "description":
           "Crafted with elevated canvas, vintage stitching, and extra cushioned insoles for a timeless lifestyle sneaker experience.",
     },

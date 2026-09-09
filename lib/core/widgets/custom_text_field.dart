@@ -38,18 +38,12 @@ class _CustomTextFieldState extends State<CustomTextField> {
 
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
-          borderSide: const BorderSide(
-            color: Color(0xffBFB8B8),
-            width: 1,
-          ),
+          borderSide: const BorderSide(color: Color(0xffBFB8B8), width: 1),
         ),
 
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8),
-          borderSide: BorderSide(
-            color: AppColors.primaryColor,
-            width: 1,
-          ),
+          borderSide: BorderSide(color: AppColors.primaryColor, width: 1),
         ),
 
         suffixIcon: widget.obscureText
@@ -67,6 +61,14 @@ class _CustomTextFieldState extends State<CustomTextField> {
                 ),
               )
             : null,
+        errorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(8),
+          borderSide: BorderSide(color: Colors.red, width: 1),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(8),
+          borderSide: BorderSide(color: Colors.red, width: 1),
+        ),
       ),
     );
   }
